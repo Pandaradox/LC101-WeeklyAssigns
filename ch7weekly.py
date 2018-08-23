@@ -1,2 +1,7 @@
-"""Placeholder for Chapter 7 weekly assignment"""
-print("Ham and Eggs")
+#####Python is about to Ssstrike
+def main():
+    print("Ham and Eggs")
+
+
+if __name__ == "__main__":
+    main()
