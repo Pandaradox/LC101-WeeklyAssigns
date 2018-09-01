@@ -1,4 +1,4 @@
-# Python is about to Ssstrike
+# # Python is about to Ssstrike
 # def is_leap(year):
 #     if year % 4 == 0: #Checks for divisible by 4 (all must pass)
 #         if year % 100 == 0: #Checks for century (all centuries must pass)
