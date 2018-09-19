@@ -2,14 +2,12 @@
 def get_country_codes(prices):
     import string
     result = ""
-    l = (prices.split("$"))
-    print(l.split(" "))
-    # for i in prices:
-    #     if i in string.ascii_letters:
-    #         result += i
-    #     elif i == ',':
-    #         result += ', '
-    # return(result)
+    for i in prices:
+        if i in string.ascii_letters:
+            result += i
+        elif i == ',':
+            result += ', '
+    return(result)
 
 
 def main():

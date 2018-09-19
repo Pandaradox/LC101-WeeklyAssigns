@@ -7,7 +7,7 @@ class Car():
         print("Vroom Vroom!")
 
     def add_fuel(self, amount):
-        self.gas_level += float(amount)
+        return(13-self.gas_level)
 
     def fill_up(self):
         if self.gas_level < 13:
