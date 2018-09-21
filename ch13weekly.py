@@ -16,7 +16,7 @@ class Chatbot():
 
 
 class BoredChatbot(Chatbot):
-    def __init__(self, name):
+    def __init__(self, name="Chad"):
         super(BoredChatbot, self).__init__(name)
 
     def response(self, prompt_from_human):
